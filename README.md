@@ -23,3 +23,28 @@ const res = await client.callMethod('fetch-balance', ['MUiW2CViWLQBg2TQDsRt1Pcj7
 console.log(res)
 
 ```
+
+## API
+
+### callMethod(name, args)
+- `name` mvsd命令名称
+- `args` 参数列表
+
+```js
+client.callMethod('fetch-header', ['-t', 500657])
+```
+
+## 便捷方法
+
+- heightHeader(num)
+- hashHeader(hash)
+- seed
+- balance(address)
+- height()
+- history(address)
+- tx(hash)
+- txIndex(hash)
+- utxo(satoshi, address)
+- block(hash)
+- transaction(hash)
+- addressAsset(hash)
