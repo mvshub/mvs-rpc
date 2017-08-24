@@ -1,0 +1,9 @@
+node_modules
+# OS X
+.DS_Store*
+._*
+# ide
+.idea
+.project
+# vscode
+.vscode
