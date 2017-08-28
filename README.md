@@ -48,3 +48,4 @@ client.callMethod('fetch-header', ['-t', 500657])
 - block(hash)
 - transaction(hash)
 - addressAsset(hash)
+- listassets

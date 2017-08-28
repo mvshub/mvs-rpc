@@ -57,6 +57,10 @@ class MvsRpc {
         return this.callMethod('getaddressasset', [hash]).then(res => res.assets);
     }
 
+    listassets() {
+        return this.callMethod('listassets').then(res => res.assets);
+    }
+
     callMethod(name, args) {
         return this.rpc(name, args).then(res => {
             if (res.error) {
