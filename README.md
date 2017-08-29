@@ -9,7 +9,7 @@ npm install --save mvs-rpc
 ## 如何使用
 
 ```js
-const Mvs = require('mvs-client');
+const Mvs = require('mvs-rpc');
 
 const client = new Mvs('http://localhost:8820/rpc');
 
